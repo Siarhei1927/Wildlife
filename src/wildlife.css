@@ -26,9 +26,7 @@ footer, header, hgroup, menu, nav, section {
 html {
     height: 100%;
 }
-body {
-    line-height: 1;
-}
+
 ol, ul {
     list-style: none;
 }
@@ -45,25 +43,55 @@ table {
     border-spacing: 0;
 }
 
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px 120px;
+    padding: 20px 0px;
+    }
 
+#logo {
+    display: flex;
+    align-items: center;
+    }
+
+input {
+    width: 540px; 
+    background-color: #ccc; 
+    font-size: 23px; 
+    line-height: 27px; 
+    font-family: 'Roboto'; 
+    opacity: 0.5; 
+    border-radius: 0px; 
+    border-style: double; 
+    padding: 0px; 
+    border-color: black;
+    }
+
+button {
+    width: 120px; 
+    background-color: #cd6326; 
+    color: #f7f7f7; 
+    border-color: transparent; 
+    border-radius: 0px 5px 5px 0px; 
+    font-size: 23px; 
+    line-height: 27px; 
+    font-family: 'Roboto';
+    }
 
 header {
     background-image: url(images/Fox.jpg);
     height: 779px;
-    max-width: none;
     background-size: cover;
     background-repeat: no-repeat;
     }
 
 main {
-max-width: none;
-height: 1368px;
-left: 0px;
-top: 780px;
-background-color: #cccccc;
-border-radius: 5px;
-margin-top: 1px;
-}
+    background-color: #cccccc;
+    border-radius: 5px;
+    margin-top: 1px;
+    }
 
 h1 {
     color: #cd6326;
@@ -72,47 +100,32 @@ h1 {
     height: 72px;
     left: 120px;
     top: 199px; 
-    font-weight: 400;
     font-family: 'Open Sans';
-    font-style: normal;
     font-size: 48px;
     line-height: 72px;
     letter-spacing: 2px;
-
-}
-
-
+    }
 
 nav ul li {
-        display: inline;
         padding: 5px 15px 5px 15px;
         float: right;
         font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
         font-size: 23px;
         line-height: 60px;
         color: #f7f7f7;
-        font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 60px;
         }
-
 
 nav ul {
     margin: 0;
-}
+    }
 
 nav ul a button {
     background-color: transparent;
     color: white;
     font-size: 23px;
     line-height: 27px;
-    border: none;
-    
-}
+    border: none;    
+    }
 
 .join {
     border-color: #cd6326;
@@ -120,12 +133,12 @@ nav ul a button {
     padding: 10px 23px;
     border-width: 2px;
     border-style: double;
-}
+    }
 
 a:link {
     color: #f7f7f7;
     text-decoration: none;
-}
+    }
 .text {
     position: absolute;
     width: 274px;
@@ -133,12 +146,10 @@ a:link {
     left: 120px;
     top: 322px;
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #f7f7f7;
-}
+    }
 
 #figure {
     position: absolute;
@@ -148,24 +159,18 @@ a:link {
     left: 120px;
     background-color: #cd6326;
     border-radius: 5px;
-}
+    }
 
 #figure p {
     color: #f7f7f7;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 23px;
     line-height: 17px;
     text-align: center;
-}
-
-
+    }
 
 .wildlife {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 60px;
     text-transform: uppercase;
@@ -180,45 +185,39 @@ a:link {
     height: 60px;
     }
 
-.la {
+.lastarts {
     display: flex;
     text-align: center;
     justify-content: center;
     font-family: 'Open Sans';
-    font-style: normal;
     font-size: 48px;
     line-height: 72px;
     color: #333;
     margin: 0px;
     padding-top: 121px;
     padding-bottom: 20px;
-        }
+    }
 
-.bn {
+.breaknews {
     display: flex;
     text-align: center;
     justify-content: center;
     font-family: 'Open Sans';
-    font-style: normal;
     font-size: 24px;
     line-height: 36px;
     color: #666;
     margin: 0px;
     padding-bottom: 120px;
-    
-}
+    }
 
 #animals {
-    top: 368px;
-    height: 360px;
     border-radius: 0px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-family: 'Open Sans';
-    font-style: normal;
     padding: 0px 210px;
-}
+    }
 
 .note {
     display: flex;
@@ -230,14 +229,13 @@ a:link {
     font-size: 27px;
     line-height: 40px;
     font-family: 'Open Sans';
-    font-style: normal;
-}
+    }
 
 #navi {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+    }
 
 .deer {
     background-image: url(images/Deer.png);
@@ -246,7 +244,7 @@ a:link {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-}
+    }
 
 .squirrel {
     background-image: url(images/Squrrel.png);
@@ -255,7 +253,7 @@ a:link {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-}
+    }
 
 .bird {
     background-image: url(images/Bird.png);
@@ -264,8 +262,7 @@ a:link {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    
-}
+    }
 
 #animals h3 {
     font-size: 22px;
@@ -275,7 +272,7 @@ a:link {
     margin: 0px;
     padding-bottom: 10px;
     padding-top: 247px;
-}
+    }
 
 #animals h4 {
     font-size: 17px;
@@ -283,28 +280,25 @@ a:link {
     text-align: center;
     color: #f7f7f7;
     margin: 0px;
-}
+    }
 
 #form {
     height: 60px;
     display: flex;
     align-content: center;
     justify-content: center;
-    
+    padding-bottom: 240px;
     }
 footer {
     background-image: url(images/Footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 359px;
-    max-width: none;
     padding: 0px 120px;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    
-
-}
+    }
 
 #icons {
     display: flex;
@@ -319,41 +313,51 @@ footer {
     border-radius: 20px;
     }
 
-#krug1 {
-    height: 40px;
-    width: 40px;
+#icon1 {
+    height: 44px;
+    width: 44px;
     border-radius: 20px;
     background-color: #f7f7f7;
     margin-right: 27px;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 
-#krug2 {
-    height: 40px;
-    width: 40px;
+#icon2 {
+    height: 44px;
+    width: 44px;
     border-radius: 20px;
     background-color: #f7f7f7;
     margin-right: 27px;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 
-#krug3 {
-    height: 40px;
-    width: 40px;
+#icon3 {
+    height: 44px;
+    width: 44px;
     border-radius: 20px;
     background-color: #f7f7f7;
     margin-right: 27px;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 
-#krug4 {
-    height: 40px;
-    width: 40px;
+#icon4 {
+    height: 44px;
+    width: 44px;
     border-radius: 20px;
     background-color: #f7f7f7;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 
 #footart {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 23px;
     line-height: 60px;
     color: #f7f7f7;
@@ -363,4 +367,12 @@ footer {
     align-content: flex-end;
     justify-content: space-between;
     align-items: center;
-}
+    }
+
+#icons a:link {
+    color: rgba(19, 71, 49, 1);
+    }
+
+    #icons a:visited {
+        color: rgba(19, 71, 49, 1);
+    }
